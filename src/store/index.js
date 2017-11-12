@@ -146,7 +146,7 @@ export const store = new Vuex.Store({
 			commit('setUser', { id: payload.uid, registeredMeetups: [] })
 		},
 		clearError({ commit }) {
-			commit('clearError')
+			commit('clearError') 
 		}
 	},
 	getters: {
